@@ -1,0 +1,33 @@
+@media (max-width: 1199px){
+
+}
+@media (max-width: 991px){
+
+}
+@media (min-width: 768px) {
+    #menu {
+        display: table !important;
+        width: 100%;
+    }
+    #menu li {
+        display: table-cell;
+    }
+}
+@media (max-width: 767px) {
+    #menu {
+        width: 100%;
+    }
+    #menu li {
+        display: block;
+    }
+    #menu > li + li {
+        margin-left: 0;
+    }
+    .dropdown-menu {
+        width: 100%;
+        position: relative;
+    }
+}
+@media (max-width: 400px) {
+    
+}

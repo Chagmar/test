@@ -1,0 +1,113 @@
+/* Общие стили */
+
+body {
+	margin: 0;
+    padding:0;
+    background-color: #fff;
+    font-family: 'Open Sans', Helvetica Neue, sans-serif;
+    font-size: 14px;
+    color:#333;
+}
+a {
+    color: #86bd55;
+}
+a:hover, a:focus {
+    text-decoration: none;
+    color: #333;
+}
+a, button, select, li, i {
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+button:focus, input:focus, select:focus, textarea:focus {
+    outline: none;
+}
+textarea {
+    resize: none;
+}
+img {
+    max-width: 100%;
+}
+input:focus::-webkit-input-placeholder {opacity: 0; transition: opacity 0.3s ease;padding: 0;line-height: inherit;}
+input:focus::-moz-placeholder {opacity: 0; transition: opacity 0.3s ease;padding: 0; line-height: inherit;} 
+input:focus:-moz-placeholder {opacity: 0; transition: opacity 0.3s ease;padding: 0;line-height: inherit;}
+input:focus:-ms-input-placeholder {opacity: 0; transition: opacity 0.3s ease;padding: 0;line-height: inherit;}
+textarea:focus::-webkit-input-placeholder {opacity: 0; transition: opacity 0.3s ease;padding: 0;line-height: inherit;}
+textarea:focus::-moz-placeholder {opacity: 0; transition: opacity 0.3s ease;padding: 0;line-height: inherit;}
+textarea:focus:-moz-placeholder {opacity: 0; transition: opacity 0.3s ease;padding: 0;line-height: inherit;}
+textarea:focus:-ms-input-placeholder {opacity: 0; transition: opacity 0.3s ease;padding: 0;line-height: inherit;}
+
+.owl-theme .owl-nav {
+    margin-top: 0;
+}
+
+/* Стилизация Bootstrap элементов */
+
+.tab-content {
+    padding: 10px 0;
+}
+.modal-body {
+    padding: 15px;
+}
+.modal-footer {
+    padding: 15px;
+}
+
+/* Кнопка наверх */
+
+#back_top {
+    z-index: 9999;
+    width: 40px;
+    height: 40px;
+    background: rgba(0, 0, 0, 0.3);
+    color: #fff;
+    text-align: center;
+    position: fixed;
+    right: 30px;
+    line-height: 36px;
+    bottom: 30px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+#back_top:hover {
+    background: #000;
+}
+#back_top:before {
+    content: "\f077";
+    font: normal normal normal 14px/1 FontAwesome;
+    line-height: 38px;
+}
+
+/* Типография */
+
+/* Шапка сайта */
+
+.navbar-toggle .icon-bar {
+    background-color: #000;
+}
+#menu {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 0;
+    background: #eee;
+}
+#menu > li {
+    display: inline-block;
+}
+#menu > li + li {
+    margin-left: -4px;
+    border-left: 1px solid rgba(255, 255, 255, 0.3);
+}
+#menu > li a {
+    padding: 15px;
+    display: block;
+}
+.dropdown-menu {
+    box-shadow: none;
+    border-radius: 0;
+}
+
+/* Подвал сайта */
+
+/* Главная страница */
